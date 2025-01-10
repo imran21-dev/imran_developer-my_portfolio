@@ -38,7 +38,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/md-imran-parves-9300091ba/"
+            href="https://www.linkedin.com/in/md-imran-sorker21/"
             target="_blank"
             className="md:text-xl hover:text-pColor duration-200"
           >

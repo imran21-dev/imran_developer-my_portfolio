@@ -131,7 +131,7 @@ const Contact = () => {
               </li>
 
               <li className="banner-list">
-                <a href="https://www.linkedin.com/in/md-imran-parves-9300091ba/" target="_blank">
+                <a href="https://www.linkedin.com/in/md-imran-sorker21/" target="_blank">
                   <FaLinkedin className="banner-list-a" />
                 </a>
               </li>
