@@ -1,6 +1,19 @@
 [
-    {
-      "id": 1,
+    
+  {
+    "id": 1,
+    "name": "Petopia",
+    "image": "https://i.postimg.cc/cChF3KqK/Screenshot-2025-01-28-143139.png",
+    "githubRepo": "https://github.com/imran21-dev/petopia",
+    "liveLink": "https://petopia-f7bab.web.app/",
+    "description": "The purpose of this website is to create a platform where individuals can connect to find and adopt pets in need of a loving home. Users can browse through various pets available for adoption or add their own pets to the platform for others to adopt. Additionally, the website provides a space for users to explore and contribute to donation campaigns aimed at supporting pet care and adoption efforts. This platform fosters a community dedicated to improving the lives of pets and their potential owners.",
+    "projectLore": "I am dedicated to transforming Petopia into the ultimate platform for pet lovers and adopters, overcoming current limitations to create a seamless, engaging, and visually captivating experience. My vision includes enhancing the adoption request process, implementing advanced search and filter options for finding pets, and improving the donation campaign system for better transparency and user interaction. I also plan to integrate a user-friendly WYSIWYG editor for creating detailed listings and campaigns. With these improvements, Petopia will become a trusted, feature-rich hub where users can connect with pets, support meaningful causes, and build a compassionate community effortlessly.",
+    "usedTechnology": ["React", "Tailwind CSS", "Node.js", "MongoDB", "Firebase", "Stripe","Express.js", "javascript"],
+    "lackings": ["design could be improved"],
+    "challenge": "During the development of Petopia, one significant challenge was implementing a WYSIWYG text editor to allow users to create rich-text content, such as detailed pet descriptions or donation campaigns. Selecting a suitable editor was difficult due to the need for compatibility with React, lightweight performance, and extensive formatting options like bold, headings, and images. Ensuring seamless integration, customization, and user-friendliness while managing state and data storage complexities added to the challenge of achieving this feature."
+  },
+  {
+      "id": 2,
       "name": "Service Scope",
       "image": "https://i.postimg.cc/Bvr2jBHg/sww.png",
       "githubRepo": "https://github.com/imran21-dev/Modified-Sercice-scope",
@@ -12,7 +25,7 @@
       "challenge": "One of the significant challenges I faced while building this project was implementing a feature to update service reviews through a dynamic popup form. Ensuring the form was intuitive, functional, and seamlessly integrated with the existing UI required meticulous attention to detail. Additionally, making the services table fully responsive across various devices presented another layer of complexity. I had to carefully design and adjust layouts, optimize data display for different screen sizes, and ensure a consistent user experience without compromising functionality. Overcoming these challenges enhanced my problem-solving skills and strengthened my ability to create user-friendly interfaces."
     },
     {
-      "id": 2,
+      "id": 3,
       "name": "Movie Spehere",
       "image": "https://i.postimg.cc/j5yPPnhr/swsw.png",
       "githubRepo": "https://github.com/imran21-dev/modified-moviesphere",
@@ -22,18 +35,7 @@
       "usedTechnology": ["React", "Tailwind CSS", "Node.js", "MongoDB", "Firebase"],
       "lackings": ["Limited functionality: Users can only view, update, and delete movie posters","No options for movie categories", "Data loading time is slower than expected", "Data security is a concern, as users can update or delete any data"],
       "challenge": "While working on this project, I encountered several challenges, particularly in making the 'Add Movie' form fully responsive across various screen sizes. Ensuring the form's elements adapted smoothly to mobile and tablet views required extensive adjustments to CSS and media queries, which was a time-consuming process. Additionally, integrating a seamless banner carousel presented difficulties in achieving smooth transitions and animations that worked efficiently across all browsers and devices. Balancing the carousel's responsiveness, speed, and user experience while maintaining performance was a key hurdle. These challenges pushed me to refine my skills in responsive design and JavaScript animation, ultimately improving the functionality and aesthetics of the project."
-    },
-    {
-      "id": 3,
-      "name": "Flyer",
-      "image": "https://i.postimg.cc/TwBNYb3M/Screenshot-4.png",
-      "githubRepo": "https://github.com/imran21-dev/flyer",
-      "liveLink": "https://connector-f6f0d.web.app/",
-      "description": "Flyer is a simple yet effective messaging app that focuses on quick and seamless communication. Currently, the app enables users to send messages in real time, creating a direct and instant way to connect with others. Though its features are streamlined, Flyer provides a solid foundation for messaging, offering ease of use and reliability. Future updates are planned to expand its capabilities further.",
-      "projectLore": "I am committed to addressing all the current limitations and transforming the Flyer chat app into a fully functional, seamless, and visually appealing messaging platform. My plan includes improving responsiveness across all devices, enhancing real-time message synchronization for instant updates, and ensuring smooth performance even during high traffic. I will also implement the option to edit and delete messages, along with additional customization options, to elevate the user experience. With these improvements, Flyer will not only become a reliable messaging app but also a beautiful and intuitive platform for users to connect, communicate, and share effortlessly.",
-      "usedTechnology": ["React", "Tailwind CSS", "Node.js", "MongoDB", "Firebase"],
-      "lackings": ["No option to edit or delete messages", "Not fully responsive across all devices", "Occasional delay in loading messages"],
-      "challenge": "I faced significant challenges while working on the Flyer chat app, particularly in implementing real-time message loading. Ensuring that messages from two connected users were instantly updated and displayed without delay required fine-tuning the app’s data flow and synchronization mechanisms. Additionally, I had to integrate send and receive notification tones for a more immersive user experience, making sure the tones played at the right moments without causing interruptions. Balancing these features while maintaining smooth performance was a key challenge that pushed my problem-solving skills."
     }
+ 
   ]
   
