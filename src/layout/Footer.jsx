@@ -46,7 +46,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="mailto:mimranparves@gmail.com?subject=Hello&body=I%20want%20to%20contact%20you."
+            href="mailto:imransorker456@gmail.com?subject=Hello&body=I%20want%20to%20contact%20you."
             target="_blank"
             className="md:text-xl hover:text-pColor duration-200"
           >

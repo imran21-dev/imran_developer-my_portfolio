@@ -111,11 +111,11 @@ const Contact = () => {
               </li>
               <li className="">
                 <a
-                  href="mailto:mimranparves@gmail.com"
+                  href="mailto:imransorker456@gmail.com"
                   target="_blank"
                   className="flex items-center gap-2"
                 >
-                  <MdMail /> mimranparves@gmail.com
+                  <MdMail /> imransorker456@gmail.com
                 </a>
               </li>
             </ul>
@@ -137,7 +137,7 @@ const Contact = () => {
               </li>
 
               <li className="banner-list">
-                <a href="mailto:mimranparves@gmail.com?subject=Hello&body=I%20want%20to%20contact%20you." target="_blank">
+                <a href="mailto:imransorker456@gmail.com?subject=Hello&body=I%20want%20to%20contact%20you." target="_blank">
                   <MdMail className="banner-list-a" />
                 </a>
               </li>
