@@ -15,6 +15,7 @@ import Home from "./layout/Home.jsx";
 import ProjectDetails from "./layout/ProjectDetails.jsx";
 import ErrorPage from "./layout/ErrorPage.jsx";
 import { HelmetProvider } from "react-helmet-async";
+import Projects from "./layout/Projects.jsx";
 
 const router = createBrowserRouter([
   {
@@ -42,6 +43,10 @@ const router = createBrowserRouter([
       {
         path: "/home",
         element: <Home></Home>,
+      },
+      {
+        path: "/projects",
+        element: <Projects></Projects>,
       },
       {
         path: "/projects/:id",

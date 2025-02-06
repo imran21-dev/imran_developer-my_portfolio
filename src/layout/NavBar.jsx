@@ -74,6 +74,17 @@ const NavBar = () => {
                 </span>
               </NavLink>
             </li>
+        
+            <li className="">
+              <NavLink
+                to="/projects"
+                className="p-[3px] rounded-full w-max  z-0 bg-transparent hover:bg-pColor/50 border-none btn min-h-max h-max"
+              >
+                <span className="bg-primary text-xs px-4 py-[4px] rounded-full relative">
+                  Projects
+                </span>
+              </NavLink>
+            </li>
             <li className="">
               <NavLink
                 to="/contact"
@@ -129,6 +140,16 @@ const NavBar = () => {
               >
                 <span className="bg-primary px-4 py-[4px] rounded-full relative">
                   Skill
+                </span>
+              </NavLink>
+            </li>
+            <li className="">
+              <NavLink
+                to="/projects"
+                className="p-[3px] rounded-full z-0 bg-transparent hover:bg-pColor/50 border-none btn min-h-max h-max"
+              >
+                <span className="bg-primary px-4 py-[4px] rounded-full relative">
+                  Projects
                 </span>
               </NavLink>
             </li>

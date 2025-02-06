@@ -1,6 +1,6 @@
 import { RiDownloadCloud2Line, RiTailwindCssFill } from "react-icons/ri";
 import userImg from "../assets/user.jpg";
-import hsc from "../assets/hsc.jpg";
+// import hsc from "../assets/hsc.jpg";
 import diploma from "../assets/diploma.jpg";
 import { Cover } from "../components/ui/cover";
 import {
@@ -353,10 +353,10 @@ const Home = () => {
           Education Journey
           <div className="w-10 absolute h-1 md:h-2 bg-gradient-bg"></div>
         </h1>
-        <section className="grid lg:grid-cols-2 gap-10 justify-items-center">
+        <section className="grid lg:grid-cols-1 gap-10 justify-items-center">
           <div className="w-full text-left ">
             <img
-              className="w-full rounded-2xl h-60 lg:h-80 object-cover"
+              className="w-full rounded-2xl h-60 lg:h-96 object-cover"
               src={diploma}
               alt="collage image"
             />
@@ -408,7 +408,7 @@ const Home = () => {
             </ul>
           </div>
 
-          <div className="w-full text-left">
+          {/* <div className="w-full text-left">
             <img
               className="w-full rounded-2xl h-60 lg:h-80 object-cover"
               src={hsc}
@@ -452,12 +452,12 @@ const Home = () => {
                 </span>
               </li>
             </ul>
-          </div>
+          </div> */}
         </section>
       </section>
 
       {/* Projects section */}
-      <section className="lg:pt-44 pt-10  relative z-0 lg:px-20  text-center">
+      <section  className="lg:pt-44 pt-10  relative z-0 lg:px-20  text-center">
         <h1 className="md:text-3xl text-xl  font-bold mx-auto gradient-text py-2 md:py-5">
           Projects
         </h1>
